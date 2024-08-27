@@ -1,0 +1,186 @@
+body{
+    padding-bottom: 500px;
+}
+
+.flex{
+    display: flex;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(120, 135, 135);
+}
+
+.flex-wrap{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+
+
+.center, .end, .between, .around{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.center .box, .between .box, .around .box, .end .box{
+    width: 50px;
+}
+
+
+/* justify content = center - centralizar conteudo*/
+.center{
+    justify-content: center;
+}
+
+/* justify content = between - separa o conteudo em partes iguais na tela, nas extremidades*/
+.between{
+    justify-content: space-between;
+}
+
+/* justify content = around - separa o conteudo em partes iguais na tela, nos centros*/
+.around{
+    justify-content: space-around;
+}
+
+/* justify content = end - separa o conteudo em partes iguais na final da tela */
+.end{
+    justify-content: end;
+}
+
+
+/* ALIGN ITEMS*/
+.align-center, .flex-end, .stretch {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+
+.align-center .box, .flex-end .box, .stretch .box{
+    width: 50px; 
+}
+
+.align-center{
+align-items: center;
+justify-content: center;
+} 
+.flex-end{
+align-items: end;
+}
+
+.stretch .box{
+    height: auto;
+}
+
+ .stretch {
+ align-items: stretch;
+}
+
+
+/* GAP */
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid blue;
+    gap: 10px;
+}
+
+.gab .box{
+    width: 32%;
+}
+
+/*Order  - define a ordem dos elementos filhos*/
+.order {
+    display: flex;
+}
+
+#um{
+    order: 1;
+}
+#dois{
+    order: 2;
+}
+#tres{
+    order: 3;
+}
+
+/*GROW */
+.grow{
+    display: flex;
+}
+
+.grow .box {
+    flex: 1;
+}
+
+.grow .big{
+    flex: 2;
+}
+
+/*Basis*/
+.basis{
+    display: flex;
+}
+
+.basis .box{
+    flex-basis: 20px;
+}
+.basis .big{
+    flex-grow: 1;
+}
+
+/*SHRINK*/
+.shrink{
+    display: flex;
+}
+
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+.shrink .small{
+    flex-shrink: 2;
+}
+
+/*SHORTHAND */
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .different{
+    flex: 3 1 400px;
+}
+
+/* auto-aligment*/
+.auto-aligment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid purple;
+}
+/* alinha somente a box different, ao centro usando align-self*/
+.auto-aligment .different{
+    align-self: center;
+}

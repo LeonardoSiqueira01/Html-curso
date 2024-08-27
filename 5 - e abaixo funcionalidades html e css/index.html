@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+   <head>
+
+    <link rel="stylesheet" href="CSS/index.css">
+   </head>
+   <body>
+    <h1>Este é um h1</h1>
+    <p> P é um paragrafo</p>
+    <br>
+    <p>cada p comeca em uma nova linha</p>
+   <br> <!-- QUEBRA LINHA -->
+   <br>
+   <p>outro paragafro</p>
+   <hr> <!-- LINHA HORIZONTAL  -------------------    -->
+    
+      <h3 id="excluise_title">ESTE É UM TITULO EXCLUSIVO COM ID </h3>
+
+   <!-- HR E BR FORAM DEPRECIADOS GERALMENTE O HR VC USA UM BORDER PRA FZR UMA LINHA HORIZONTAL-->
+   <h3>h3 teste</h3>
+    <h5>teste h5</h5>
+    <a href="https://google.com">link do google</a>
+    <br>
+    <img src="imgs/foto.jpg" alt="logo aleatorio">
+    <a href="https://google.com" target="_blank"> google nova aba</a>
+   
+
+    <p> ul - lista nao ordenada - li dentro para definir cada item da lista</p>
+   <ul>
+      <li>item qualqer</li>
+      <li>outro item</li>
+      <li>mais um</li>
+   </ul>
+   
+   <p> ol - lista  ordenada - li dentro para definir cada item da lista</p>
+   <ol>
+      <li>item qualqer</li>
+      <li>outro item</li>
+      <li>mais um</li>
+   </ol>
+   <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div>
+      <h2>titulo da seção</h2>
+      <p>Descrição da seção</p>
+      <a href="google.com">Saber mais</a>
+    </div>
+<div>
+   <h2>sobre mim</h2>
+   <p>eu gosto de programacao</p>
+</div>
+
+<h3>TESTAR A ORDEM DE SELETORES NO CSS</h3>
+    <p id="idTeste", class="classTeste"> linha com id e classe </p>
+    <p class="classTeste"> linha com class</p>
+    <p> linha somente com p</p>
+
+    <!-- Nomes de cores-->
+    <p class="ColorName">CORES EM CSS</p>
+
+
+    <!-- Color HEX - CORES HEXADECIMAL-->
+    <p class="ColorHex">COLOR HEX- COR EM HEXADECIMAL</p>
+ 
+ 
+    <!-- Color HEX - Se aprofundando  quando TODOS os R G B se repetem vc pode digitar eles somente 1 vez, exemplo :  #55bb11, pode virar #5b1
+     outro exemplo: #bb5511   pode virar = #b51-->
+
+  <p class="hexTeste1">Testes acima testado aqui - hexTeste1</p>
+  <p class="hexTeste2">segundo teste - hexTeste2</p>
+  <p class="hexTeste11">hexTeste11</p>
+<p class="hexTeste22">hexTeste22</p>
+
+<!-- 14 - RGB  color = rgb(red, green, blue)   aonde o 0 é a cor mais escura e os numeros vao ate o 255 numero maximo e a cor mais clara-->
+<p class="rgb"> estilizado com RGB</p>
+<p class="mixed-rgb"> estilizado com RGB Mixado</p>
+
+
+
+<!-- RGBA - RGB+A SENDO A = ALPHA - USADO PARA MODIFICAR A OPACIDADE DA COR-->
+ <!--    color: rgba(red, green, blue, alpha); -->
+     <!-- color : rgba(0 ate 255, 0 ate 255, 0 ate 255, 0.0 ate 1.0)-->
+
+<p class=" ">RGBA TESTE 1</p>
+<p class="rgba2">RGBA TESTE 2</p>
+
+
+<!-- HSL - acronimo para HUE, SATURATION e LIGHTNESS(MATIZ, SATURAÇÃO e LEVEZA) ,num ranking de uso ele é menos utilizado: HEX> RGB>HSL-->
+ <!-- MODO DE USO
+  color = hsl(0-255, 0-100%, 0-100%)-->
+
+<p class="hslTeste1", id="excluise_title"> Testando hsl1</p> 
+<p class="hslTeste2"> Testando hsl2</p> 
+
+
+<p class="backgroundColor">MUDAR O BACKGROUND COLOR </p>
+<p class="backgroundColor2">MUDAR O BACKGROUND COLOR 2</p>
+
+<div class="bg-opacity">
+<p >teste do backGROUND OPACITY</p>
+</div>
+
+
+
+<div class="bg-opacity2">  <!-- DIV USADA PARA ENCAPSULAR ELEMENTOS QUE ESTAO CONECTADOS ENTRE SI-->
+  <p >teste do backGROUND OPACITY teste mais visivel</p>
+  </div>
+  
+
+  <!-- colocar imagem de fundo no texto-->
+  <div class="rgba-opacity">
+    <p>ESTA FRASE TEM UMA IMAGEM DE FUNDO</p>
+  </div>
+  
+<div class="centralizar-imagem">
+</div>
+
+<div class="nao-centralizar-imagem">
+</div>
+
+<!-- 22- altura e largura-->
+  <div class="height-width"></div>
+  <div class="height-width2"></div>
+   </body>
+
+<!-- Padding - é o espaço entre o conteudo e a borda do elemento-->
+<!-- usado para definir a distancia entre o conteudo (texto) e a  extremidade do elemento-->
+<h4 class="PADDING"> TESTANDO PEDDING - COM PADDING</h4>
+<h4 class="SEMPADDING"> TESTANDO PEDDING - SEM PADDING</h4>
+
+<!-- PADDING INDIVIDUAL, SAO OS PADDINGS DE CADA POSICAO (LEFT, RIGHT,TOP E BOTTOM) ESQUERDA,DIREITA,CIMA E EMBAIXO-->
+
+<p class="padding-esqerda">PADDING A ESQUERDA</p>
+<p class="padding-direita">PADDING A DIREITA</p>
+<p class="padding-cima">PADDING A CIMA</p>
+<p class="padding-baixo">PADDING A BAIXO</p>
+
+<!-- SHORTHAND PROPERTIES - USADO PARA  ADICIONAR PADDINGS A TODAS DIRECOES COM UMA REGRA-->
+<!-- SEQUENCIA TOP,RIGHTM BOTTOM E LEFT -->
+ <!-- EXEMPLO =
+   padding: 10px 5px 12px E 20px-->
+   <p class="shorthand-padding">TESTANDO SHORTHAND PADDING</p>
+
+   <p class="shorthand-padding2">TESTANDO SHORTHAND PADDING 2</p>
+
+<div class="without-border-box">
+  <p>alguma coisa - sem BORDER BOX</p>
+</div>
+
+<!-- BOX-SIZING: BORDER BOX    - SERVE PARA DEFINIR O TAMANHO MAXIMO E RESPEITA-LO
+ EXEMPLO: PROPRIEDADE COM 400PX DE LARGURA E ALTURA E QUER ACRESCENTAR 50PX DE PADDING EM CADA DIRECAO, SE COLOCAR O WIDHT DE 400PX DIRETO + 50PX PADDING IRA IR PRA 50PX PADDING DIIREIT+
+ +50PX PADDING ESQUERDO + 400PX DE TAMANHO = TOTALIZANDO 500 PX, PRA ISSO USA-SE O BORDER BOX PARA DEFINIR O PADDING DE ACORDO COM O TAMANHO MAXIMO DO WIDTH RESPEITANDO A REGRA DE TAMANHO INICIAL DE 400 PX, NO CASO TORNANDO O PADING DE 50 E O WIDTH DE 300PX -->
+<div class="border-box">
+  <p>alguma coisa COM BORDER BOX</p>
+</div>
+
+  <!--27 - Border--> 
+  <div class="border">Testando a borda</div>
+  <div class="border2">Testando a borda</div>
+  
+            <!--28 - Border individual-->
+            <p class="border-left">borda a esquerda</p>
+            <p class="border-top">borda a cima</p>
+            <p class="border-right">borda a direita</p>
+            <p class="border-bottom">Borda inferior</p>
+
+            
+            <!--Border arredondada-->
+            <div class="borda-arredondada">Teste borda arredondada</div>
+            <div class="borda-arredondada2">Teste borda arredondada</div>
+
+            <!-- stick - USADO PARA MOSTRAR NA TELA ALGO ESPECIFICO MESMO APOS DESCER BASTANTE O CONTEUDO FICA FIXO COMO SE FOSSE UMA MENU BAR -->
+            <div class="sticky">
+              <span>Eu sou o sticky</span>
+                 </div> 
+
+                <!--30 - Margem -->
+                <div class="margin"> Eu tenho margem </div>
+                <div class="margin-top"> Eu tenho margem no topo</div>
+                <div class="margin-shorthand">Margem shorthand</div>
+   
+              <!--31 - Unindo conceitos de Box Model -->
+            <div class="box-model"><h1>Tenho todas propriedades do box model</h1></div>   
+
+
+            <!-- text aligment - alinhamento de texto-->
+
+            <p class="alinhamento-centro">Texto alinhado ao centro</p>
+            <p class="alinhamento-esquerda">Texto alinhado a esquerda</p>
+            <p class="alinhamento-direita">Texto alinhado a direita</p>
+
+
+            <div class="container-right">
+              <H4>texto alinhado a direita no container</H4>
+              <p>CONTEINER COM texto alinhado a direita</p>
+              <br>
+              <p>fazendo testes</p>
+              <h5>ultimo teste</h5>
+            </div>
+
+            <p class="underline">Texto com underline</p>
+            <p class="line-through">Eu tenho um risco</p>
+              <a href="www.google.com.br" class="remove-underline">Link do google</a>
+
+              <p class="text-upper">texto em caixa ALTA </p>
+              <p class="text-lower">TEXTO EM caixa BaixA</p>
+
+              <p>Este é um exemplo de <span style="color: red;">texto em destaque</span>.</p>
+              <div style="background-color: lightblue;">
+                <h1>Título</h1>
+                <p>Este é um parágrafo dentro de um div.</p>
+            </div>
+
+              <div class="inline-block">A</div>
+              <div class="inline-block">B</div>
+              <div class="inline-block">C</div>
+
+              <span class="display-block">TESTE</span>
+              <span class="display-block">TESTE 2</span>
+            <p class="invisible">OCULTAR ALGO COM DISPLAY NONE</p>
+
+              <!-- POSITIONS EM CSS -->
+
+            <div class="static">
+              <span>EU SOU ESTATICO</span>
+            </div>
+
+            <div class="position-relative">
+              <span>EU SOU RELATIVO</span>
+            </div>
+            <p>eu sou um paragrafo</p>
+
+            <div class="position-absolute">
+              <span>EU SOU ABSOLUTO</span>
+            </div>
+            <p>eu sou outro paragrafo</p>
+
+            <div class="relative-container">
+              <div class="absolute-1"></div>
+              <div class="absolute-2"></div>
+            </div>
+            <!-- POSITION FIXED-->
+           <div class="fixed">
+            <span>ESTOU FIXO</span>
+           </div>  
+           <div class="sticky">ESTE ELEMENTO E STICKY</div>
+
+           <!-- 48 z index - USAR PARA DEFINIR A ORDEM DE amostragem de algo, sendo o z-index:1 primeiro e z-index: 1 ou + o segundo e assim por diante -->
+          <div class="relative-container">
+            <div class="absolute-3"></div>
+            <div class="absolute-4"></div>
+            <div class="absolute-5"></div>
+
+          </div>           
+   </html>

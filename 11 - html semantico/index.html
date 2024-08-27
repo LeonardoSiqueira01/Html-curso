@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SEMANTICO</title>
+</head>
+<body>
+<!-- 3 - Header - usada para um conteudo de introducao ou link de navegacao, geralmente tem elementos como:
+ headings, logo, informacao do autor do post/pagina
+ pode ter mais de um header por pagina-->
+ <header>
+       <!-- Nav - é usada para demarcar blocos de navegação, ou seja é esperado que haja
+      links dentro desta tag e nem todo link precisa estar numa nav. 
+      Costumeiramente são blocos grandes de link,
+      exemplo: barra de navegação principal-->
+      <nav>
+        <h2>nosso site</h2>
+        <a href="#">Home</a>
+           <a href="#">Produtos</a>
+           <a href="#">Contatos</a>
+      </nav>
+ </header>
+
+ 
+ 
+     <!-- article 2 - usado para elementos informativos, post de blog, coments, card de produtos etc
+      o conteudo e INDIVIDUAL, nao fazendo relacao com outro elemento ou article -->
+     <section>
+        <h2>Ultimos posts do blog:</h2>
+        <article>
+            <h3>Post sobre alguma coisa</h3>
+            <p>descricao do post</p>
+            <a href="#">Ler conteudo</a>
+        </article>
+        <article>
+            <h3>Post sobre alguma coisa2</h3>
+            <p>descricao do post2</p>
+            <a href="#">Ler conteudo2</a>
+        </article>
+        <article>
+            <h3>Post sobre alguma coisa3</h3>
+            <p>descricao do post3</p>
+            <a href="#">Ler conteudo3</a>
+        </article>
+     </section>
+
+
+     <!-- 8 - Main -A tag main é o que contem o conteudo principal da pagina,
+      nao podemos utilizar mais de uma tag main por pagina
+      O conteudo de main deve ser unico, e nao repetido ao longo da pagina -->
+      <main>
+        <!-- AQUI NO CASO O MAIN SERIA O PRODUTO SE FOSSE UMA PAGINA DE VENDAS, COMO NESTE PROJETO ESTA MUITO AMPLO E MISTURADO, DEFENI OS PRODUTOS COMO CATEGORIA PRINCIPAL
+         ENTAO ELE SERA O MAIN-->
+
+
+
+    <!-- section 1 - usada para demilitar uma seção de alguma coisa do site,agrupar categorias etc-->
+    <section>
+        <h2>Veja os nossos produtos</h2>
+        <p>Produto 1</p>
+        <p>Produto 2</p>
+        <p>Produto 3</p>
+        <p>Produto 4</p>
+     </section>
+
+     <section>
+        <h2>Confira os diferenciais</h2>
+        <ul>
+            <li>Diferencial 1</li>
+            <li>Diferencial 2</li>
+            <li>Diferencial 3</li>
+            <li>Diferencial 4</li>
+        </ul>
+     </section>
+
+      </main>
+
+     <!-- 6 - ASIDE  - É utilizado para criar conteudos ao lado do conteudo principal, o conteudo que fica dentro de aside
+      PRECISA ESTAR INDIRETAMENTE RELACIONADO AO CONTEUDO PRINCIPAL.
+      Exemplo: Temos uma lista de produtos sendo exibida, em aside temos os filtros e ordenacao -->
+      <aside>
+        <h4>Categorias:</h4>
+        <ul>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">React</a></li>
+            <li><a href="#">Node</a></li>
+        </ul>
+      </aside>
+
+      <!-- 9 - Mark - A TAG MARK deve conter um texto dentro.
+       Ela define um CONTEUDO QUE PRECISA ESTAR EM EVIDENCIA.
+       Gerando uma importancia maior para o mesmo -->
+       <p>Temos neste texto um <mark>conteudo importante</mark>, que precisa ser marcado</p>
+
+        <!-- 7 - figure e figcaption - são utilizadas em conjunto
+         Figure é o elemento pai, sua funcao e exibir alguma imagem na pagina.
+         A imagem é inserida pela tag img
+         E figcaption serve de legenda para a imagem-->
+         <figure>
+            <img src="IMGS/download.png" alt="imagem do html">
+            <figcaption>REPRESENTACAO DO HTML5</figcaption>
+         </figure>
+
+
+     <!-- 4 - FOOTER - é usada como rodapé da pagina, ultima secao do site
+      mas tambem pode SER UTILIZADA EM OUTRAS TAGS, que precisem deste ultimo elemento
+      Geralmente contem: informacoes sobre a empresa, copyright, dados de contato, sitemap-->
+     <footer>
+        <div>
+            <h2>Entre em contato</h2>
+            <p>Telefone: (11) 982313-1332</p>
+            <p>Email: superbigode@gmail.com</p>
+        </div>
+        <p>Criado por LGS System - 2022</p>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,424 @@
+p{
+font-size: 17;}
+
+#idTeste{
+    background-color: brown;
+}
+
+.classTeste{
+    background-color: yellow;
+}
+
+#excluise_title{
+    background-color: pink;
+    width: 40%;
+}
+.ColorName{
+color: rgb(105, 44, 44);
+background-color: white;
+}
+
+.ColorHex{
+    /* Combinacao de cores de  # no comeco e conjunto de 2 digitos pra r, g, b, sendo os digitos do 0 ao 9 e do A ao F*/
+    color: #51A7be;
+}
+.hexTeste1{
+
+     color:#5b1;
+}
+.hexTeste11{
+  color: #55bb11
+}
+.hexTeste2{
+color: #b51;
+}
+.hexTeste22{
+color: #bb5511 ;
+}
+
+.rgb{
+color: rgb(255, 00, 00);
+}
+
+.mixed-rgb{
+color: rgb(122, 44, 241)
+}
+
+.rgba1{
+    color: rgba(222, 44, 88, 0.81);
+}
+.rgba2{
+    color: rgba(66, 222, 174, 0.4)
+}
+.hslTeste1{
+color: hsl(45, 38%, 26%);
+}
+
+.hslTeste2{
+color: hsl(95, 68%, 56%);
+}
+
+.backgroundColor{
+background-color: #51A7be;
+color: white;
+}
+
+.backgroundColor2{
+background-color: rgb(212,55,143);
+color: #125e11;
+}
+
+.bg-opacity{
+    background-color:green ;
+    color: black;
+    opacity: 0.3;
+}
+.bg-opacity2{
+    background-color:rgba(128, 115, 8,0.1) ;
+    color: white;
+    opacity: 0.9;
+}
+.rgba-opacity{
+    background-image: url(/imgs/foto.jpg);
+   padding: 10px;
+   text-align: center;
+   color: blue;
+}
+.centralizar-imagem, .nao-centralizar-imagem{
+
+    height: 400px;
+    width: 400px;
+    background-image: url(../imgs/moto.avif);
+    border-style: groove;
+}
+.centralizar-imagem{
+    background-position: center;
+    border-radius: 220px;
+}
+
+/*Largura e altura*/
+
+.height-width{
+
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+}
+
+.height-width2{
+    height: 300px;
+
+    background-color: rgb(68, 148, 15); 
+}
+
+    .PADDING,.SEMPADDING{
+    
+    color: white;}
+
+.PADDING{
+    padding: 10px;
+    background-color: rgba(222, 44, 88, 0.21);
+}
+
+.SEMPADDING{
+    padding: 0px;
+    background-color: rgba(72, 168, 95, 0.21);
+
+}
+
+.padding-esqerda,
+.padding-direita,
+.padding-cima,
+.padding-baixo{
+background-color: #125e11;
+color: white;
+
+}
+.padding-esqerda{
+padding-left: 10px;
+}
+.padding-direita{
+    padding-right: 10px;
+
+}
+.padding-cima{
+    padding-top: 10px;
+
+}
+.padding-baixo{
+    padding-bottom: 10px;
+
+}
+
+.shorthand-padding{
+    padding: 10px 33px 22px 44px;
+    background-color: rebeccapurple;
+}
+
+.shorthand-padding2{
+    background-color: red;
+    padding: 10px 20px;
+    /*padding: 10px 20px     - neste caso o css interpreta que queremos adicionar 10px cima e baixo e 20px direita e esquerda*/
+}
+
+.without-border-box{
+    background-color: #433;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: rgb(110, 143, 181);
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border2{
+    border: 5px dotted #932;
+    padding: 12px;
+}
+.border-top{
+border-top: 5px solid red;
+}
+ /*Borda individual*/
+ .border-left{
+    border-left: 3px solid #131594;
+    color: black;
+}
+.border-right{
+border-right: 3px solid green;
+color: blue;
+}
+.border-bottom{
+border-bottom: 4px solid red;
+}
+
+
+ /*Borda arredondada*/
+ .borda-arredondada{
+    border:  5px solid gold;
+    background-color: rgb(118, 32, 32); opacity: 0.9;;
+    color: yellow;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.borda-arredondada2{
+    background-color: rgb(72, 69, 105);
+    color: yellow;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.sticky{
+    width: 60px;
+    height: 60px;
+    background-color: #55a398;
+    border: 12 px solid blue;
+    margin-top: 60px;
+    position: sticky;
+    top: 15px;
+}
+
+    /*Margens */
+    .margin{
+        margin: 10px;
+        background-color: green;
+        padding: 4px;
+ 
+
+    }
+
+    .margin-top{
+        margin-top: 50px;
+        background-color: blue;
+        padding: 4px;
+
+    }
+
+    .margin-shorthand{
+       margin: 5px 6px 7px 17px; 
+       background-color: red;
+       padding: 4px;
+
+    }
+ /*Todas propriedades de um box model*/
+ .box-model{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #500678;
+    border-radius: 7px;
+    width: 200px;
+    height: 150px;
+}
+.alinhamento-centro{
+    text-align: center;
+    background-color: skyblue;
+}
+.alinhamento-esquerda{
+    text-align: left;
+    background-color: rgb(235, 135, 168);
+}
+.alinhamento-direita{
+    text-align: right;
+    background-color: rgb(183, 154, 118);
+}
+
+.container-right{
+    text-align: right;
+    background-color: #5b1;
+    color: white;
+    padding-right: 10px;
+    width: 400px;
+
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: blue;
+}
+
+.remove-underline{
+    text-decoration: none;
+    color: black;
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
+.text-lower{
+    text-transform: lowercase;
+}
+
+.inline-block{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color: red;
+    display: inline-block;
+}
+
+.display-block{
+    display: block;
+    width: 70px;
+    background-color: rgb(81, 81, 152);
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.invisible{
+    display: none;
+    background-color: #125e11;
+}
+
+.static{
+    position: static;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.position-relative{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+    top: 100px;
+    left: 40px;
+}
+
+.position-absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    top: 2px;
+    right: 2px;
+}
+
+.relative-container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid green;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(40, 40, 23);
+    position: absolute;
+    border-color:4px solid #125e11;
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right:  10px;
+}
+.fixed{
+    height: 100px;
+    width: 100px;
+    background-color: #451;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+.sticky{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(141, 161, 81);
+    border: 1px solid rgb(113, 78, 78);
+    margin-top: 120px;
+    position: sticky;
+    top: 10px;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #131594;
+    position: absolute;
+}
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    background-color: #b51;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+    background-color: #500678;
+
+}
