@@ -21,7 +21,7 @@ body{
     transition: 0.2s;
 }
 .container.active{
-    height: 500px;
+    height: 500px; 
 }
 #qr-code img{
     width: 50%;
