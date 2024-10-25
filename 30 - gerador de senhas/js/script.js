@@ -83,7 +83,7 @@ copyPasswordButton.addEventListener("click", (e) =>{
         copyPasswordButton.innerText = "Senha copiada com sucesso!";
 
         setTimeout(() => {
-            copyPasswordButton.innerText = "Copiar";
+            copyPasswordButton.innerText = "Copiar"; 
         }, 1000);
     })
 })
